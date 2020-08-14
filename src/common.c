@@ -957,8 +957,8 @@ int fdfs_http_request_handler(struct fdfs_http_context *pContext)
 			}
 			else
 			{
-				OUTPUT_HEADERS(pContext, (&response), HTTP_BADREQUEST);
-				return HTTP_BADREQUEST;
+				OUTPUT_HEADERS(pContext, (&response), HTTP_FORBBIDEN);
+				return HTTP_FORBBIDEN;
 			}
 		}
 	}

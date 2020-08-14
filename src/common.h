@@ -40,6 +40,10 @@
 #define HTTP_BADREQUEST            400
 #endif
 
+#ifndef HTTP_FORBBIDEN
+#define HTTP_FORBBIDEN             403
+#endif
+
 #ifndef HTTP_NOTFOUND
 #define HTTP_NOTFOUND              404
 #endif
